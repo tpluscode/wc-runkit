@@ -1,4 +1,6 @@
 {
   "name": "@tpluscode/wc-runkit",
-  "module": "index.js"
+  "version": "0.1.0",
+  "module": "index.js",
+  "unpkg": "index.js"
 }
