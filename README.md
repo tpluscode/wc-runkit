@@ -6,7 +6,7 @@ Dead simple RunKit web component
 With unpkg, add this to page:
 
 ```html
-<script src="//unpkg.com/@tpluscode/run-kit"></script>
+<script src="//unpkg.com/@tpluscode/wc-runkit"></script>
 ```
 
 ## Usage
