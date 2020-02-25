@@ -1,4 +1,4 @@
-> # <run-kit>
+> # @tpluscode/run-kit
 Dead simple RunKit web component
 
 ## Installation
@@ -24,7 +24,7 @@ myApp.printMsg()
 ```
 
 When using in a static-page generator, you might use triple backticks instead of `<pre>` to have the highlighted
-code be displayed untile runkit initializes its embed.
+code be displayed until runkit initializes its embed.
 
     <run-kit>
     
