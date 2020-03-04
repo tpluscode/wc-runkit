@@ -1,6 +1,6 @@
 {
   "name": "@tpluscode/wc-runkit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "module": "index.js",
   "unpkg": "index.js",
   "publishConfig": {
@@ -40,6 +40,10 @@
     ]
   },
   "standard": {
-    "globals": [ "RunKit", "HTMLElement", "customElements" ]
+    "globals": [
+      "RunKit",
+      "HTMLElement",
+      "customElements"
+    ]
   }
 }
