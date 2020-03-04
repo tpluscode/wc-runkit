@@ -3,7 +3,13 @@ customElements.define('run-kit', class extends HTMLElement {
     const root = this.attachShadow({
       mode: 'open'
     })
+    const style = document.createElement('style')
+    style.innerHTML = `:host {
+      display: block;
+    }`
+
     root.appendChild(document.createElement('slot'))
+    root.appendChild(style)
 
     if (!window.RunKit) {
       const runkitScript = document.createElement('script')
