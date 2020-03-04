@@ -1,9 +1,7 @@
-/* globals RunKit */
-
 customElements.define('run-kit', class extends HTMLElement {
-  connectedCallback() {
+  connectedCallback () {
     const root = this.attachShadow({
-      mode: 'open',
+      mode: 'open'
     })
     root.appendChild(document.createElement('slot'))
 
@@ -17,13 +15,13 @@ customElements.define('run-kit', class extends HTMLElement {
     }
   }
 
-  __init() {
+  __init () {
     const code = this.querySelector('pre')
 
     this.runKit = RunKit.createNotebook({
       element: this,
       gutterStyle: 'inside',
-      source: code.textContent.trim(),
+      source: code.textContent.trim()
     })
 
     this.runKit.onLoad = () => code.remove()

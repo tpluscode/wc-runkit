@@ -38,5 +38,8 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
+  },
+  "standard": {
+    "globals": [ "RunKit", "HTMLElement", "customElements" ]
   }
 }
