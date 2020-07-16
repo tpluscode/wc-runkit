@@ -35,3 +35,16 @@ code be displayed until runkit initializes its embed.
       ```
       
     </run-kit>
+
+
+## Configuration
+
+All options follow [Embed API](https://runkit.com/docs/embed#embed-api) docs page
+
+### Node Version
+
+```
+<run-kit node-version="13"></run-kit>
+```
+
+The default is `12`

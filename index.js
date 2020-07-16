@@ -27,7 +27,8 @@ customElements.define('run-kit', class extends HTMLElement {
     this.runKit = RunKit.createNotebook({
       element: this,
       gutterStyle: 'inside',
-      source: code.textContent.trim()
+      source: code.textContent.trim(),
+      nodeVersion: this.getAttribute('node-version') || '12'
     })
 
     this.runKit.onLoad = () => code.remove()
